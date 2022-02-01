@@ -1,6 +1,118 @@
-h1 {
-  color: green;
+body {
+  background-color: #f6f2d4;
 }
-h2 {
-  color: hotpink;
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #7c73e6;
+  font-size: 80px;
+}
+
+.time {
+  color: #8946a6;
+  font-size: 24px;
+}
+.temp {
+  color: #8946a6;
+  font-size: 30px;
+}
+
+.chose-city {
+  display: block;
+
+  margin-top: 40px;
+
+  border-color: #8946a6;
+  color: #7c73e6;
+  border-radius: 4px;
+}
+.chose-city :focus {
+  background-color: lightblue;
+  color: #7c73e6;
+  border-radius: 4px;
+}
+.chosen-city {
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #c8e3d4;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+
+.smog {
+  color: grey;
+  font-size: 50px;
+}
+
+.first {
+  color: #d22779;
+  font-size: large;
+  background-color: #c8e3d4;
+  border-radius: 34px;
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.second {
+  color: #d22779;
+  font-size: large;
+  background-color: #c8e3d4;
+  border-radius: 34px;
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.third {
+  color: #d22779;
+  font-size: large;
+  background-color: #c8e3d4;
+  border-radius: 34px;
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.fourth {
+  color: #d22779;
+  font-size: large;
+  background-color: #c8e3d4;
+  border-radius: 34px;
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.fifth {
+  color: #d22779;
+  font-size: large;
+  background-color: #c8e3d4;
+  border-radius: 34px;
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+img {
+  width: 240px;
+  padding-top: 22px;
+  border-radius: 4px;
 }
