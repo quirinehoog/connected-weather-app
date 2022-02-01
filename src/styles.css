@@ -9,18 +9,24 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  color: #7c73e6;
+  color: #005689;
   font-size: 80px;
 }
 
 .search-name {
-  background-color: #8946a6;
+  background-color: #d5eeff;
   border: none;
 }
-.time {
-  color: #8946a6;
-  font-size: 24px;
+
+.search-button {
+  background-color: #007cb9;
+  color: #007cb9;
 }
+
+h6 {
+  color: #007cb9;
+}
+
 .temp {
   color: #8946a6;
   font-size: 30px;
@@ -56,9 +62,9 @@ h1 {
 }
 
 .first {
-  color: #d22779;
+  color: #ff895d;
   font-size: large;
-  background-color: #c8e3d4;
+  background-color: #d5eeff;
   border-radius: 34px;
   text-align: center;
   padding-left: 1px;
@@ -69,9 +75,9 @@ h1 {
   margin-right: 2px;
 }
 .second {
-  color: #d22779;
+  color: #ff895d;
   font-size: large;
-  background-color: #c8e3d4;
+  background-color: #d5eeff;
   border-radius: 34px;
   text-align: center;
   padding-left: 1px;
@@ -82,9 +88,9 @@ h1 {
   margin-right: 2px;
 }
 .third {
-  color: #d22779;
+  color: #ff895d;
   font-size: large;
-  background-color: #c8e3d4;
+  background-color: #d5eeff;
   border-radius: 34px;
   text-align: center;
   padding-left: 1px;
@@ -95,9 +101,9 @@ h1 {
   margin-right: 2px;
 }
 .fourth {
-  color: #d22779;
+  color: #ff895d;
   font-size: large;
-  background-color: #c8e3d4;
+  background-color: #d5eeff;
   border-radius: 34px;
   text-align: center;
   padding-left: 1px;
@@ -108,9 +114,9 @@ h1 {
   margin-right: 2px;
 }
 .fifth {
-  color: #d22779;
+  color: #ff895d;
   font-size: large;
-  background-color: #c8e3d4;
+  background-color: #d5eeff;
   border-radius: 34px;
   text-align: center;
   padding-left: 1px;
