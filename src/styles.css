@@ -1,5 +1,9 @@
 body {
-  background-color: #f6f2d4;
+  background: linear-gradient(
+    179.2deg,
+    rgb(21, 21, 212) 0.9%,
+    rgb(53, 220, 243) 95.5%
+  );
 }
 
 h1 {
@@ -8,6 +12,10 @@ h1 {
   font-size: 80px;
 }
 
+.search-name {
+  background-color: #8946a6;
+  border: none;
+}
 .time {
   color: #8946a6;
   font-size: 24px;
