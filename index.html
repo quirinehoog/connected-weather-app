@@ -30,7 +30,7 @@
       <div class="toppart">
        <form class="search-form" id="search-form">
         <div class="row">
-          <div class="col-6">
+          <div class="col-3 search-name">
            <input 
             class="form"
             type="search" 
@@ -40,7 +40,7 @@
             autofocus="on"
             />
           </div>
-            <div class="col-3">
+            <div class="col-3 search-button">
             <input
                 type="submit"
                 value="Search"
@@ -60,21 +60,22 @@
           </div>
       <div class="middlepart">
       <div class="row">
-        <div class="col-6">     
-           <ul>
-            <li> Humidity:<span id="humidity"> 45 </span> %</li>
-            <li> Wind: <span id="wind"> 2 </span> km/h</li>
-          </ul>
-        </div>
+        
         <div class="col-6">       
-              <h1 id="cityName">Chose a City</h1>
+              <h1 id="cityName">Paris</h1>
               <h6 id="live">Thursday 12:00</h6>
               
             <span class="temperature" id="temperature">5</span>
             <span class="unit">
               <a id="tempcel">°C</a> |<a id="tempfah">°F</a>
             </span>
-           </div>      
+           </div>   
+           <div class="col-6">     
+           <ul>
+            <li> Humidity:<span id="humidity"> 45 </span> %</li>
+            <li> Wind: <span id="wind"> 2 </span> km/h</li>
+          </ul>
+        </div>   
       </div>
     </div>
 
