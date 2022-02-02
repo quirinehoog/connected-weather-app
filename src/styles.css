@@ -2,6 +2,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: #005689;
   font-size: 80px;
+  padding-top: 20px;
 }
 .weather-app {
   background: radial-gradient(
@@ -58,18 +59,25 @@ h6 {
   text-align: center;
   transition: all 0.5s ease-out;
 }
+.temperature {
+  font-size: 60px;
+  color: #007cb9;
+}
+.unit {
+  font-size: 30px;
+  color: #007cb9;
+}
 
 li {
   list-style: none;
   color: #007cb9;
-  line-height: 30px;
+  line-height: 20px;
   font-size: 18px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .image-weather {
   color: yellow;
-  
 }
 .first {
   color: #ff895d;
