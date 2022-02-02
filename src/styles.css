@@ -1,18 +1,21 @@
-body {
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #005689;
+  font-size: 80px;
+}
+.weather-app {
   background: radial-gradient(
     circle at 10% 20%,
     rgba(91, 173, 254, 0.46) 0%,
     rgba(91, 224, 254, 0.46) 47.2%,
     rgba(170, 254, 235, 0.43) 90%
   );
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #007cb9;
+  border-radius: 6px;
 }
-
-h1 {
-  font-family: "Poppins", sans-serif;
-  color: #005689;
-  font-size: 80px;
-}
-
 .search-name {
   background-color: #d5eeff;
   border: none;
