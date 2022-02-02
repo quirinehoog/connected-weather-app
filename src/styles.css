@@ -63,7 +63,9 @@ h6 {
   color: grey;
   font-size: 50px;
 }
-
+li {
+  list-style: none;
+}
 .first {
   color: #ff895d;
   font-size: large;
