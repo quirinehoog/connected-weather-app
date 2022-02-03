@@ -66,4 +66,4 @@ searchForm.addEventListener("submit", goSearch);
 let currentLocation = document.querySelector("#current-location");
 currentLocation.addEventListener("click", gpsLocation);
 
-searchCity("Paris");
+
