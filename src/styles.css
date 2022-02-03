@@ -64,8 +64,10 @@ h6 {
   color: #007cb9;
 }
 .unit {
-  font-size: 30px;
+  font-size: 20px;
   color: #007cb9;
+  position: relative;
+  top: -35px;
 }
 
 li {
