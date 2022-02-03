@@ -80,10 +80,10 @@ li {
   color: yellow;
 }
 .first {
-  color: #ff895d;
+  color: #eaf9f9;
   font-size: large;
-  background-color: #d5eeff;
-  border-radius: 34px;
+  background-color: #4fa5df;
+  border-radius: 90px;
   text-align: center;
   padding-left: 1px;
   padding-right: 1px;
@@ -91,12 +91,13 @@ li {
   padding-bottom: 9px;
   margin-left: 2px;
   margin-right: 2px;
+  border: 1px solid #007cb9;
 }
 .second {
-  color: #ff895d;
+  color: #eaf9f9;
   font-size: large;
-  background-color: #d5eeff;
-  border-radius: 34px;
+  background-color: #4fa5df;
+  border-radius: 90px;
   text-align: center;
   padding-left: 1px;
   padding-right: 1px;
@@ -104,12 +105,13 @@ li {
   padding-bottom: 9px;
   margin-left: 2px;
   margin-right: 2px;
+  border: 1px solid #007cb9;
 }
 .third {
-  color: #ff895d;
+  color: #eaf9f9;
   font-size: large;
-  background-color: #d5eeff;
-  border-radius: 34px;
+  background-color: #4fa5df;
+  border-radius: 90px;
   text-align: center;
   padding-left: 1px;
   padding-right: 1px;
@@ -117,12 +119,13 @@ li {
   padding-bottom: 9px;
   margin-left: 2px;
   margin-right: 2px;
+  border: 1px solid #007cb9;
 }
 .fourth {
-  color: #ff895d;
+  color: #eaf9f9;
   font-size: large;
-  background-color: #d5eeff;
-  border-radius: 34px;
+  background-color: #4fa5df;
+  border-radius: 90px;
   text-align: center;
   padding-left: 1px;
   padding-right: 1px;
@@ -130,12 +133,13 @@ li {
   padding-bottom: 9px;
   margin-left: 2px;
   margin-right: 2px;
+  border: 1px solid #007cb9;
 }
 .fifth {
-  color: #ff895d;
+  color: #eaf9f9;
   font-size: large;
-  background-color: #d5eeff;
-  border-radius: 34px;
+  background-color: #4fa5df;
+  border-radius: 90px;
   text-align: center;
   padding-left: 1px;
   padding-right: 1px;
@@ -143,6 +147,7 @@ li {
   padding-bottom: 9px;
   margin-left: 2px;
   margin-right: 2px;
+  border: 1px solid #007cb9;
 }
 
 .outside-weather-app {
