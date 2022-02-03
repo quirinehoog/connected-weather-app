@@ -24,15 +24,26 @@ let day = days[now.getDay()];
 h6.innerHTML = `${day} ${hours}:${minutes}`;
 
 function showWeather(response) {
-  document.querySelector("#cityName").innerHTML = response.data.name;
-  document.querySelector("#temperature").innerHTML = Math.round(
+  let cityElement = document.querySelector("#cityName");
+  let temperatureElement= document.querySelector("#temperature"); 
+  let descriptionElement=document.querySelector("#description");
+  let humidityElement=document.querySelector("#humidity");
+  let windElement=document.querySelector("#wind");
+  let iconElement=document.querySelector("#icon");
+ 
+  cityElement.innerHTML = response.data.name;
+  temperatureElement.innerHTML = Math.round(
     response.data.main.temp
   );
-  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  document.querySelector("#wind").innerHTML = Math.round(
+  descriptionElement.innerHTML = response.data.weather[0].description;
+  humidityElement.innerHTML = response.data.main.humidity;
+  windElement.innerHTML =  Math.round(
     response.data.wind.speed
   );
+  iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+iconElement.setAttribute("alt", response.data.weather[0].description);
 }
+
 
 function searchCity(cityName) {
   let apiKey = "cf0f1f173fb62dd2bd98180f65a77eaf";
@@ -44,8 +55,8 @@ function searchCity(cityName) {
 
 function goSearch(event) {
   event.preventDefault();
-  let cityName = document.querySelector("#cityinput").value;
-  searchCity(cityName);
+  let cityInputElement = document.querySelector("#cityinput");
+  searchCity(cityInputElement.value);
 }
 
 function retrievePosition(position) {
@@ -66,5 +77,4 @@ searchForm.addEventListener("submit", goSearch);
 
 let currentLocation = document.querySelector("#current-location");
 currentLocation.addEventListener("click", gpsLocation);
-
 
