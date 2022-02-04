@@ -1,4 +1,4 @@
-function formatDate(timestamp) {
+function formatNow(timestamp) {
   let now = new Date(timestamp);
   let hours = now.getHours();
   if (hours < 10) {
