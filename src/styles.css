@@ -79,13 +79,13 @@ li {
 .image-weather {
   color: rgb(244, 255, 93);
 }
-.first {
+.weather-forecast-downpart {
   color: #eaf9f9;
   font-size: large;
   background-color: #4fa5df;
-  border-radius: 90px;
+  border-radius: 8px;
   text-align: center;
-  padding-left: 1px;
+  padding-left: 5px;
   padding-right: 1px;
   padding-top: 9px;
   padding-bottom: 9px;
@@ -93,61 +93,15 @@ li {
   margin-right: 2px;
   border: 1px solid #007cb9;
 }
-.second {
-  color: #eaf9f9;
-  font-size: large;
-  background-color: #4fa5df;
-  border-radius: 90px;
-  text-align: center;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  margin-left: 2px;
-  margin-right: 2px;
-  border: 1px solid #007cb9;
+.weather-forecast-temps {
+  margin-top: 5px;
+  font-size: 14px;
 }
-.third {
-  color: #eaf9f9;
-  font-size: large;
-  background-color: #4fa5df;
-  border-radius: 90px;
-  text-align: center;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  margin-left: 2px;
-  margin-right: 2px;
-  border: 1px solid #007cb9;
+.weather-forecast-temps-low {
+  color: #007cb9;
 }
-.fourth {
-  color: #eaf9f9;
-  font-size: large;
-  background-color: #4fa5df;
-  border-radius: 90px;
-  text-align: center;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  margin-left: 2px;
-  margin-right: 2px;
-  border: 1px solid #007cb9;
-}
-.fifth {
-  color: #eaf9f9;
-  font-size: large;
-  background-color: #4fa5df;
-  border-radius: 90px;
-  text-align: center;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  margin-left: 2px;
-  margin-right: 2px;
-  border: 1px solid #007cb9;
+.weather-forecast-day {
+  font-weight: 250px;
 }
 
 .outside-weather-app {
