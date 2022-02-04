@@ -1,7 +1,7 @@
 h1 {
   font-family: "Poppins", sans-serif;
   color: #005689;
-  font-size: 80px;
+  font-size: 40px;
   padding-top: 20px;
 }
 .weather-app {
@@ -18,12 +18,10 @@ h1 {
   border-radius: 6px;
 }
 .search-name {
-  background-color: #d5eeff;
   border: none;
 }
 
 .search-button {
-  background-color: #007cb9;
   color: #007cb9;
 }
 
