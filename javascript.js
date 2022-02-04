@@ -20,7 +20,7 @@ function formatNow(timestamp) {
     "Saturday",
   ];
   let day = days[now.getDay()];
-  return `${day}${hours}:${minutes}`;
+  return `${day} ${hours}:${minutes}`;
 }
 
 function showWeather(response) {
