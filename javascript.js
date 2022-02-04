@@ -1,13 +1,12 @@
-let now = new Date();
-
-let h6 = document.querySelector("h6");
-
-let hours = now.getHours();
-if (hours < 10) {
-  hours = `0${hours}`;
-  let minutes = now.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
+function formatDate(timestamp) {
+  let now = new Date(timestamp);
+  let hours = now.getHours();
+  if (hours < 10) {
+    hours = `0${hours}`;
+    let minutes = now.getMinutes();
+    if (minutes < 10) {
+      minutes = `0${minutes}`;
+    }
   }
 
   let days = [
@@ -20,7 +19,7 @@ if (hours < 10) {
     "Saturday",
   ];
   let day = days[now.getDay()];
-  return `${day}${hours}:$minutes}`;
+  return `${day}${hours}:${minutes}`;
 }
 
 function showWeather(response) {
