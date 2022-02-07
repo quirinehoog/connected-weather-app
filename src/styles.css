@@ -68,7 +68,7 @@ h6 {
   top: -35px;
 }
 
-li {
+.weatherinfo-rightside {
   list-style: none;
   color: #007cb9;
   line-height: 20px;
