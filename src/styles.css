@@ -4,6 +4,11 @@ h1 {
   font-size: 40px;
   padding-top: 20px;
 }
+
+h6 {
+  color: #007cb9;
+}
+
 .weather-app {
   background: radial-gradient(
     circle at 10% 20%,
@@ -25,10 +30,6 @@ h1 {
   color: #007cb9;
 }
 
-h6 {
-  color: #007cb9;
-}
-
 .temp {
   color: #8946a6;
   font-size: 30px;
@@ -36,9 +37,7 @@ h6 {
 
 .chose-city {
   display: block;
-
   margin-top: 40px;
-
   border-color: #8946a6;
   color: #7c73e6;
   border-radius: 4px;
@@ -69,11 +68,11 @@ h6 {
 }
 
 .weatherinfo-rightside {
-  list-style: none;
   color: #007cb9;
   line-height: 20px;
   font-size: 18px;
-  padding-top: 40px;
+  padding-top: 20px;
+  margin: 0;
 }
 
 .image-weather {
