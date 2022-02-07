@@ -20,7 +20,7 @@ function formatNow(whatday) {
     "Saturday",
   ];
   let day = days[now.getDay()];
-  return `${day} ${hours}:${minutes}`;
+  return `Last updated: ${day} ${hours}:${minutes}`;
 }
 
 function formDay(whatday) {
