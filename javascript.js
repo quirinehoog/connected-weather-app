@@ -59,7 +59,6 @@ function displayForecast(response) {
           </div> 
           <div class="weather-forecast-day">${formDay(forecastDay.dt)}</div>
         </div>
-        </div>
 `;
     }
   });
