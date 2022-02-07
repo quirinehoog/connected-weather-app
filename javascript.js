@@ -23,6 +23,33 @@ function formatNow(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="row">`;
+  let days = ["THU", "FRI", "SAT", "SUN"];
+
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+  <div class="col-2">
+          <img src="https://www.metaweather.com/static/img/weather/png/64/s.png"
+          alt=""
+          />
+          <div class="weather-forecast-temps">
+            <span class="weather-forecast-temps-high">20℃</span>
+            <span class="weather-forecast-temps-low">8℃</span>
+          </div> 
+          <div class="weather-forecast-day">${day}</div>
+        </div>
+        </div>
+`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function showWeather(response) {
   let cityElement = document.querySelector("#cityName");
   let temperatureElement = document.querySelector("#temperature");
@@ -104,3 +131,4 @@ let tempCel = document.querySelector("#tempcel");
 tempCel.addEventListener("click", displayCelsiusTemperature);
 
 searchCity("New York");
+displayForecast();
