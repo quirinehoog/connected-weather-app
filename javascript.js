@@ -70,7 +70,8 @@ function showWeather(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
   nowElement.innerHTML = formatNow(response.data.dt * 1000);
-}
+
+  }
 
 function searchCity(cityName) {
   let apiKey = "cf0f1f173fb62dd2bd98180f65a77eaf";
@@ -92,8 +93,8 @@ function displayFahrenheitTemperature(event) {
 
   celsiusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+  let fahrenheiTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheiTemperature);
 }
 
 function displayCelsiusTemperature(event) {
@@ -124,11 +125,11 @@ currentLocation.addEventListener("click", gpsLocation);
 
 let celsiusTemperature = null;
 
-let tempFah = document.querySelector("#tempfah");
-tempFah.addEventListener("click", displayFahrenheitTemperature);
+let fahrenheitLink = document.querySelector("#tempfah");
+fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let tempCel = document.querySelector("#tempcel");
-tempCel.addEventListener("click", displayCelsiusTemperature);
+let celsiusLink = document.querySelector("#tempcel");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 searchCity("New York");
-displayForecast();
+
