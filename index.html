@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script
       src="https://kit.fontawesome.com/48083ea22e.js"
       crossorigin="anonymous"
@@ -23,79 +23,80 @@
     />
     <title>QWeatherApp</title>
     <link rel="stylesheet" href="src/styles.css" />
-    
   </head>
   <body>
     <div class="container">
-        <div class="outside-weather-app">
+      <div class="outside-weather-app">
         <div class="weather-app">
-      <div class="toppart">
-       <form class="search-form" id="search-form">
-        <div class="row">
-          <div class="col-6 search-name">
-           <input 
-            class="form-control"
-            type="search" 
-            id="cityinput"
-            placeholder="Enter a city..." 
-            autocomplete="off"
-            autofocus="on"
-            />
+          <div class="toppart">
+            <form class="search-form" id="search-form">
+              <div class="row">
+                <div class="col-6 search-name">
+                  <input
+                    class="form-control"
+                    type="search"
+                    id="cityinput"
+                    placeholder="Enter a city..."
+                    autocomplete="off"
+                    autofocus="on"
+                  />
+                </div>
+                <div class="col-3 search-button">
+                  <input
+                    type="submit"
+                    value="Search"
+                    class="form-control btn btn-primary shadow-sm"
+                  />
+                </div>
+                <div class="col-3 live-button">
+                  <input
+                    type="submit"
+                    value="LIVE location"
+                    id="current-location"
+                    class="form-control btn btn-primary shadow-sm"
+                  />
+                </div>
+              </div>
+            </form>
           </div>
-            <div class="col-3 search-button">
-            <input
-                type="submit"
-                value="Search"
-                class="form-control btn btn-primary shadow-sm"
-              />
-            </div>
-            <div class="col-3 live-button">
-              <input
-                type="submit"
-                value="LIVE location"
-                id="current-location"
-                class="form-control btn btn-primary shadow-sm"
-              />
-            </div>
-          </div>
-           </form>
-          </div>
-      <div class="middlepart">
-      <div class="row">
-            <div class="col-6">       
-              <h1 id="cityName">Paris</h1>
-              <h6 class="now" id="now">Thursday 12:00</h6>
+          <div class="middlepart">
+            <div class="row">
+              <div class="col-6">
+                <h1 id="cityName">Paris</h1>
+                <h6 class="now" id="now">Thursday 12:00</h6>
                 <span class="temperature" id="temperature">5</span>
                 <span class="unit">
-                <a id="tempcel">°C</a> |<a id="tempfah">°F</a>
+                  <a id="tempcel">°C</a> |<a id="tempfah">°F</a>
                 </span>
-            </div>   
-        <div class="col-6">  
-             <div class="weather-rightside">
-                 <div class="weatherimage-rightside">
-             <img src="" alt="Clear" id="icon"/>   
-             </div>
-             <div class="weatherinfo-leftside">
-           <ul>
-            <li><span id="description"></span></li>
-            <li> Humidity:<span id="humidity"> 45 </span> %</li>
-            <li> Wind: <span id="wind"> 2 </span> km/h</li>
-          </ul>
+              </div>
+              <div class="col-6">
+                <div class="weather-rightside">
+                  <div class="weatherimage-rightside">
+                    <img src="" alt="Clear" id="icon" />
+                  </div>
+                  <div class="weatherinfo-leftside">
+                    <ul>
+                      <li><span id="description"></span></li>
+                      <li>Humidity:<span id="humidity"> 45 </span> %</li>
+                      <li>Wind: <span id="wind"> 2 </span> km/h</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          </div>        
-        </div>   
-      </div>
-      </div>
-    </br>
-    <div class="weather-forecast-downpart" id="forecast">
-      </div>
+          <div class="weather-forecast-downpart" id="forecast"></div>
         </div>
       </div>
-      </div>
-      </div>
-     <p><a href="https://github.com/quirinehoog/connected-weather-app" target="_blank">Open-source code by Quirine van 't Hoog</a></p>
-        
+      <p>
+        <a
+          href="https://github.com/quirinehoog/connected-weather-app"
+          target="_blank"
+          >Open-source code by Quirine van 't Hoog</a
+        >
+      </p>
     </div>
+
     <script src="javascript.js"></script>
   </body>
 </html>
