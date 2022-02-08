@@ -8,7 +8,7 @@ h1 {
 
 h6 {
   color: #007cb9;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 .weather-app {
@@ -40,8 +40,9 @@ h6 {
 .temperature {
   font-size: 60px;
   color: #007cb9;
-  margin-left: 50px;
+  margin-left: 90px;
 }
+
 .unit {
   font-size: 20px;
   color: #007cb9;
@@ -49,16 +50,19 @@ h6 {
   top: -35px;
 }
 
-.weatherinfo-rightside {
+.weatherimage-rightside {
+  margin-left: 30px;
+  padding-top: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+   color: #007cb9;
+}
+
+  .weatherinfo-rightside {
   color: #007cb9;
   line-height: 20px;
   font-size: 18px;
-  padding-top: 20px;
   margin: 0;
-}
-
-.image-weather {
-  color: rgb(244, 255, 93);
 }
 
 .weather-forecast-downpart {
