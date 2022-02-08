@@ -37,28 +37,6 @@ h6 {
   font-size: 30px;
 }
 
-.chose-city {
-  display: block;
-  margin-top: 40px;
-  border-color: #8946a6;
-  color: #7c73e6;
-  border-radius: 4px;
-}
-.chose-city :focus {
-  background-color: lightblue;
-  color: #7c73e6;
-  border-radius: 4px;
-}
-.chosen-city {
-  margin-top: 40px;
-  padding-left: 50px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  border-radius: 5px;
-  background-color: #c8e3d4;
-  text-align: center;
-  transition: all 0.5s ease-out;
-}
 .temperature {
   font-size: 60px;
   color: #007cb9;
